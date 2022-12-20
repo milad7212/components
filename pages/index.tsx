@@ -12,6 +12,8 @@ import Cards from "../components/Cards";
 import Cards2 from "../components/Cards2";
 import Cards3 from "../components/Cards3";
 import ChatCard from "../components/ChatCard";
+import FAQ from "../components/FAQ";
+import FAQ2 from "../components/FAQ2";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Hero2 from "../components/Hero2";
@@ -39,6 +41,8 @@ function index() {
       <Cards2 />
       <Cards3 />
       <ChatCard />
+      <FAQ/>
+      <FAQ2/>
       <Footer/>
       <Hero/>
       <Hero2/>
