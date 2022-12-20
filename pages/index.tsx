@@ -21,11 +21,16 @@ import Input from "../components/Input";
 import Input2 from "../components/Input2";
 import Input3 from "../components/Input3";
 import Input4 from "../components/Input4";
+import Modal from "../components/Modal";
 import Navbar from "../components/Navbar";
 import Navbar2 from "../components/Navbar2";
 import Navbar3 from "../components/Navbar3";
+import Newsletter from "../components/Newsletter";
+import Newsletter2 from "../components/Newsletter2";
 import Pricing from "../components/Pricing";
 import Row from "../components/Row";
+import SelectMenu from "../components/SelectMenu";
+import SelectMenu2 from "../components/SelectMenu2";
 import Tabel1 from "../components/Tabel1";
 
 function index() {
@@ -55,13 +60,23 @@ function index() {
       <Input2 />
       <Input3 />
       <Input4 />
+      <Modal/>
 
       <Navbar/>
       <Navbar2/>
       <Navbar3/>
+      <Newsletter/>
+      <Newsletter2/>
 
       <Row />
+
+    <SelectMenu/>
+    <SelectMenu2/>
+
+
       <Tabel1 />
+
+
       <BlogPost />
       <Pricing />
     </div>
