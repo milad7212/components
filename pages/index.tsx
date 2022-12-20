@@ -13,6 +13,8 @@ import Cards2 from "../components/Cards2";
 import Cards3 from "../components/Cards3";
 import ChatCard from "../components/ChatCard";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Hero2 from "../components/Hero2";
 import Input from "../components/Input";
 import Input2 from "../components/Input2";
 import Input3 from "../components/Input3";
@@ -38,6 +40,8 @@ function index() {
       <Cards3 />
       <ChatCard />
       <Footer/>
+      <Hero/>
+      <Hero2/>
 
 
       <Input />
