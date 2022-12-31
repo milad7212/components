@@ -3,6 +3,9 @@ import Alert from "../components/Alert";
 import Alert2 from "../components/Alert2";
 import Alert3 from "../components/Alert3";
 import Alert4 from "../components/Alert4";
+import Banner from "../components/Banner";
+import Banner2 from "../components/Banner2";
+import Banner3 from "../components/Banner3";
 import BlogPost from "../components/BlogPost";
 import Card from "../components/Card";
 import Card2 from "../components/Card2";
@@ -27,6 +30,7 @@ import Navbar2 from "../components/Navbar2";
 import Navbar3 from "../components/Navbar3";
 import Newsletter from "../components/Newsletter";
 import Newsletter2 from "../components/Newsletter2";
+import Page1 from "../components/pages/Page1";
 import Pricing from "../components/Pricing";
 import Row from "../components/Row";
 import SelectMenu from "../components/SelectMenu";
@@ -36,10 +40,15 @@ import Tabel1 from "../components/Tabel1";
 function index() {
   return (
     <div className="bg-gray-100">
+      {/* <Page1/> */}
       <Alert/>
       <Alert2/>
       <Alert3/>
       <Alert4/>
+      <h1 className="text-4xl">Banner</h1>
+      <Banner/>
+      <Banner2/>
+      <Banner3/>
       <BlogPost />
       <Card />
       <Card2 />
