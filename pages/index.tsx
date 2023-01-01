@@ -19,7 +19,7 @@ import Cards3 from "../components/card/Cards3";
 import ChatCard from "../components/ChatCard";
 import FAQ from "../components/FAQ";
 import FAQ2 from "../components/FAQ2";
-import Footer from "../components/Footer";
+import Footer from "../components/footer/Footer";
 import Hero from "../components/Hero";
 import Hero2 from "../components/Hero2";
 import Input from "../components/Input";
@@ -45,9 +45,9 @@ function index() {
   return (
     <div className="bg-gray-100">
       <AllNavbar />
-      <AllButtons/>
-      <AllSections/>
-      <AllSteps/>
+      <AllButtons />
+      <AllSections />
+      <AllSteps />
       {/* <Page1/> */}
       <Alert />
       <Alert2 />
@@ -72,9 +72,7 @@ function index() {
       <Input2 />
       <Input3 />
       <Input4 />
-   
 
-      
       <Newsletter />
       <Newsletter2 />
 
