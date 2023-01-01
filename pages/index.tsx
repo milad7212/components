@@ -27,9 +27,7 @@ import Input2 from "../components/Input2";
 import Input3 from "../components/Input3";
 import Input4 from "../components/Input4";
 import Modal from "../components/Modal";
-import Navbar from "../components/Navbar";
-import Navbar2 from "../components/Navbar2";
-import Navbar3 from "../components/Navbar3";
+
 import Newsletter from "../components/Newsletter";
 import Newsletter2 from "../components/Newsletter2";
 import Page1 from "../components/pages/Page1";
@@ -38,51 +36,48 @@ import Row from "../components/Row";
 import SelectMenu from "../components/SelectMenu";
 import SelectMenu2 from "../components/SelectMenu2";
 import Tabel1 from "../components/Tabel1";
+import AllNavbar from "../components/navigation/AllNavbar";
 
 function index() {
   return (
     <div className="bg-gray-100">
+      <AllNavbar />
       {/* <Page1/> */}
-      <Alert/>
-      <Alert2/>
-      <Alert3/>
-      <Alert4/>
+      <Alert />
+      <Alert2 />
+      <Alert3 />
+      <Alert4 />
       <h1 className="text-4xl">Banner</h1>
-      <Banner/>
-      <Banner2/>
-      <Banner3/>
+      <Banner />
+      <Banner2 />
+      <Banner3 />
       <BlogPost />
       <h1 className="text-4xl">Cards</h1>
 
-      <AllCards/>
+      <AllCards />
       <ChatCard />
-      <FAQ/>
-      <FAQ2/>
-      <Footer/>
-      <Hero/>
-      <Hero2/>
-
+      <FAQ />
+      <FAQ2 />
+      <Footer />
+      <Hero />
+      <Hero2 />
 
       <Input />
       <Input2 />
       <Input3 />
       <Input4 />
-      <Modal/>
+   
 
-      <Navbar/>
-      <Navbar2/>
-      <Navbar3/>
-      <Newsletter/>
-      <Newsletter2/>
+      
+      <Newsletter />
+      <Newsletter2 />
 
       <Row />
 
-    <SelectMenu/>
-    <SelectMenu2/>
-
+      <SelectMenu />
+      <SelectMenu2 />
 
       <Tabel1 />
-
 
       <BlogPost />
       <Pricing />
