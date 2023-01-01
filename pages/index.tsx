@@ -37,11 +37,13 @@ import SelectMenu from "../components/SelectMenu";
 import SelectMenu2 from "../components/SelectMenu2";
 import Tabel1 from "../components/Tabel1";
 import AllNavbar from "../components/navigation/AllNavbar";
+import AllButtons from "../components/buttons/AllButtons";
 
 function index() {
   return (
     <div className="bg-gray-100">
       <AllNavbar />
+      <AllButtons/>
       {/* <Page1/> */}
       <Alert />
       <Alert2 />
