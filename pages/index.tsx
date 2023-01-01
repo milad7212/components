@@ -7,13 +7,15 @@ import Banner from "../components/Banner";
 import Banner2 from "../components/Banner2";
 import Banner3 from "../components/Banner3";
 import BlogPost from "../components/BlogPost";
-import Card from "../components/Card";
-import Card2 from "../components/Card2";
-import Card3 from "../components/Card3";
-import Card4 from "../components/Card4";
-import Cards from "../components/Cards";
-import Cards2 from "../components/Cards2";
-import Cards3 from "../components/Cards3";
+import AllCards from "../components/card/AllCards";
+import Card from "../components/card/Card";
+import Card2 from "../components/card/Card2";
+import Card3 from "../components/card/Card3";
+import Card4 from "../components/card/Card4";
+import Cards from "../components/card/Cards";
+import Cards2 from "../components/card/Cards2";
+import Cards3 from "../components/card/Cards3";
+
 import ChatCard from "../components/ChatCard";
 import FAQ from "../components/FAQ";
 import FAQ2 from "../components/FAQ2";
@@ -50,13 +52,9 @@ function index() {
       <Banner2/>
       <Banner3/>
       <BlogPost />
-      <Card />
-      <Card2 />
-      <Card3 />
-      <Card4 />
-      <Cards />
-      <Cards2 />
-      <Cards3 />
+      <h1 className="text-4xl">Cards</h1>
+
+      <AllCards/>
       <ChatCard />
       <FAQ/>
       <FAQ2/>
