@@ -1,4 +1,5 @@
 import React from 'react'
+import Wrap from '../hoc/Wrap'
 
 function Input3() {
   return (
@@ -26,4 +27,4 @@ function Input3() {
   )
 }
 
-export default Input3
+export default Wrap(Input3)

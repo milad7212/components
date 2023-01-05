@@ -6,7 +6,8 @@ function Wrap(Component) {
     return (
       <>
     
-        <div className="overflow-hidden relative mx-4 my-2 border-2 border-indigo-900 rounded-lg shadow-lg ">
+        <div className="overflow-hidden relative mx-4  py-4
+         my-2 border-2 border-indigo-900 rounded-lg shadow-lg ">
           <Component />
         </div>
       </>

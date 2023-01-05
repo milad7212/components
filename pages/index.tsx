@@ -21,10 +21,8 @@ import ChatCard from "../components/ChatCard";
 import Footer from "../components/footer/Footer";
 import Hero from "../components/Hero";
 import Hero2 from "../components/Hero2";
-import Input from "../components/Input";
-import Input2 from "../components/Input2";
-import Input3 from "../components/Input3";
-import Input4 from "../components/Input4";
+
+
 import Modal from "../components/Modal";
 
 import Newsletter from "../components/Newsletter";
@@ -66,10 +64,8 @@ function index() {
       <Hero />
       <Hero2 />
 
-      <Input />
-      <Input2 />
-      <Input3 />
-      <Input4 />
+      
+    
 
       <Newsletter />
       <Newsletter2 />

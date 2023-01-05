@@ -1,4 +1,6 @@
-export const Feature7 = () => {
+import Wrap from "../hoc/Wrap";
+
+ const Feature7 = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">
@@ -153,3 +155,5 @@ export const Feature7 = () => {
       </div>
     );
   };
+
+  export default Wrap(Feature7)
