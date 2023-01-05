@@ -1,4 +1,6 @@
-export const Footer3 = () => {
+import Wrap from "../hoc/Wrap";
+
+ const Footer3 = () => {
     return (
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
@@ -245,3 +247,4 @@ export const Footer3 = () => {
       </div>
     );
   };
+  export default Wrap(Footer3)

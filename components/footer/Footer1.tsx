@@ -1,4 +1,6 @@
-export const Footer1 = () => {
+import Wrap from "../hoc/Wrap";
+
+const Footer1 = () => {
     return (
       <div className="bg-gray-900">
         <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -233,3 +235,5 @@ export const Footer1 = () => {
       </div>
     );
   };
+
+  export default Wrap(Footer1)

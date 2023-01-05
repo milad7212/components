@@ -1,4 +1,5 @@
 import React from 'react'
+import Wrap from '../hoc/Wrap'
 
 function Section1() {
   return (
@@ -106,4 +107,4 @@ function Section1() {
   )
 }
 
-export default Section1
+export default Wrap(Section1)

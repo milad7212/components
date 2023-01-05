@@ -1,4 +1,6 @@
-export const Footer4 = () => {
+import Wrap from "../hoc/Wrap";
+
+ const Footer4 = () => {
     return (
       <div className="relative mt-16 bg-deep-purple-accent-400">
         <svg
@@ -261,3 +263,4 @@ export const Footer4 = () => {
       </div>
     );
   };
+  export default Wrap(Footer4)
