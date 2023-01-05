@@ -1,4 +1,5 @@
 import React from 'react'
+import Wrap from '../hoc/Wrap'
 
 function FAQ() {
     const faqsList = [
@@ -59,4 +60,4 @@ function FAQ() {
     )
 }
 
-export default FAQ
+export default Wrap(FAQ)

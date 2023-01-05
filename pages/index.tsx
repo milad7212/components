@@ -17,8 +17,7 @@ import Cards2 from "../components/card/Cards2";
 import Cards3 from "../components/card/Cards3";
 
 import ChatCard from "../components/ChatCard";
-import FAQ from "../components/FAQ";
-import FAQ2 from "../components/FAQ2";
+
 import Footer from "../components/footer/Footer";
 import Hero from "../components/Hero";
 import Hero2 from "../components/Hero2";
@@ -62,8 +61,7 @@ function index() {
 
       <AllCards />
       <ChatCard />
-      <FAQ />
-      <FAQ2 />
+
       <Footer />
       <Hero />
       <Hero2 />

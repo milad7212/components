@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import Wrap from '../hoc/Wrap'
 
 const FaqsCard = (props) => {
 
@@ -99,6 +100,6 @@ function FAQ2() {
     )
 }
 
-export default FAQ2
+export default Wrap(FAQ2)
 
 
