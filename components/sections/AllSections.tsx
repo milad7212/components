@@ -6,6 +6,7 @@ function AllSections() {
     <div >
       <Section />
       <Section1 />
+      2
       <Section2 />
       <Section3 />
       <Section4 />
@@ -13,7 +14,9 @@ function AllSections() {
       <Section6 />
       <Section7 />
       <Section8 />
+      9
       <Section9 />
+      10
       <Section10 />
     </div>
   );

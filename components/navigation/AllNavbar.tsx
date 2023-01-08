@@ -1,5 +1,6 @@
 import React from "react";
-import { Navbar, Navbar2, Navbar3, Navbar1, Navbar4, Navbar5,Navbar6 } from "./";
+import { Navbar, Navbar2, Navbar3, Navbar1, Navbar4, Navbar5,Navbar6, Navbar7 } from "./";
+
 import Wrapper from "./Wrapper";
 
 function AllNavbar() {
@@ -26,6 +27,8 @@ function AllNavbar() {
       <Wrapper>
         <Navbar6/>
       </Wrapper>
+      7
+      <Navbar7/>
     </div>
   );
 }

@@ -8,6 +8,8 @@ import {
   Feature13,
   Feature14,
   Feature15,
+  Feature16,
+  Feature17,
   Feature2,
   Feature3,
   Feature4,
@@ -37,6 +39,11 @@ function AllFeatures() {
       <Feature13 />
       <Feature14 />
       <Feature15 />
+
+      16
+      <Feature16 />
+      17
+      <Feature17 />
     </div>
   );
 }

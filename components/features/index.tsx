@@ -1,4 +1,6 @@
 export {default as Feature} from './Feature'
+export {default as Feature17} from './Feature17'
+export {default as Feature16} from './Feature16'
 export {default as Feature15} from './Feature15'
 export {default as Feature14} from './Feature14'
 export {default as Feature13} from './Feature13'

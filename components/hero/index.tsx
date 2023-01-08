@@ -1,4 +1,6 @@
 export {default as Hero} from './Hero'
+export {default as Hero19} from './Hero19'
+export {default as Hero18} from './Hero18'
 export {default as Hero17} from './Hero17'
 export {default as Hero16} from './Hero16'
 export {default as Hero15} from './Hero15'

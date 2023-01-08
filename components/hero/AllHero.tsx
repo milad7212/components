@@ -1,5 +1,5 @@
 import React from 'react'
-import {Hero, Hero1, Hero10, Hero11, Hero12, Hero13, Hero14, Hero15, Hero16, Hero17, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, Hero9} from './'
+import {Hero, Hero1, Hero10, Hero11, Hero12, Hero13, Hero14, Hero15, Hero16, Hero17, Hero18, Hero19, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, Hero9} from './'
 
 function AllHero() {
   return (
@@ -31,6 +31,8 @@ function AllHero() {
         <Hero16/>
         17
         <Hero17/>
+        <Hero18/>
+        <Hero19/>
 
 
     </div>
